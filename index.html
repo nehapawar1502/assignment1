@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <!-- CSS only -->
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+--> 
+<link rel="stylesheet" href="bootstrap.min.css">
+<style>
+    h1{
+        color:blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+</head>
+<body> 
+    <!--<div class="container h-100 d-flex justify-content-center align-items-center border bg-light text-black"> -->
+        <div class="container border bg-light text-black "><form>
+       <h1> Student Registration Form </h1><br>
+      <div class="form-group">
+       <label> Roll number :</label>
+        <input type="text" name="roll_num" placeholder="Enter the Roll number" class="form-control" required><br>
+    </div>
+    <div class="form-group">
+        <label>First name :</label>
+        <input type="text" name="fname" placeholder="Enter the first name" class="form-control" required><br>
+     </div>
+     <div class="form-group">
+        <label>Middle name :</label>
+        <input type="text" name="mname" placeholder="Enter the Middle name" class="form-control" required><br>
+     </div>
+     <div class="form-group">
+        <label>Last name :</label> 
+        <input type="text" name="lname" placeholder="Enter the last name" class="form-control" required><br>
+     </div>
+        <div class="form-group">
+        <lable>Email Address :</lable>
+        <input type="email" name="email" placeholder="Enter the Email" class="form-control" required><br>
+    </div>
+    <div class="fom-group">   
+    <label> Gender :</label>
+    <div class="radio">
+        <input type="radio" name="male" > male<br></div>
+        <div class="radio">
+        <input type="radio" name="female"> female<br></div>
+    </div> 
+       
+    <div class="fom-group"> <label> Department</label><br>
+        <select>
+          <option value="Mech" class="form-control"> Mech</option> 
+          <option value="comp"class="form-control"> Comp</option>  
+          <option value="it"class="form-control"> IT</option>  
+          <option value="E&TC"class="form-control"> E&TC</option>  
+          <option value="Civil"class="form-control"> Civil</option>  
+
+        </select><br><br>
+    </div>
+      <center><button type="submit" class="btn btn-success">submit</button></center> 
+        
+    </form>
+</div>
+</body>
+</html>
